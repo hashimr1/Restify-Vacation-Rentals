@@ -1,0 +1,231 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+:checked + label {
+    background-color: white;
+}
+
+#main-div{
+    width: 80vw;
+    max-width: 1600px;
+    max-height: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.medium-text{
+    margin: 20px;
+    width: 200px;
+    line-height: 34px;
+    font-size: 20px;
+}
+
+.step-div{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    padding-bottom: 50px;
+}
+
+.end-button{
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 0 5px;
+    background: #59B6BB;
+}
+
+#activate-button{
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 0 5px;
+    background: #59B6BB;
+}
+
+.bottom-buttons{
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+}
+
+textarea{
+    width: 80%;
+    height: 150px;
+    padding: 8px 10px;
+    margin: 20px 0px 0px 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 100%;
+}
+
+#amenities{
+    padding-top: 1rem;
+    display: flex;
+}
+
+.checkboxes{
+    padding-right: 1rem;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.selection {
+    overflow: hidden;
+    width: 80%;
+    padding: 10px 0;
+}
+
+select {
+    border: 0;
+    background: transparent;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 100%;
+}
+
+#address{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#inner-address{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.b-address{
+    flex: 1 0 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ainput{
+    padding: 5px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 100%;
+    width: 80%;
+}
+
+.long-text{
+    width: 90%;
+}
+
+.short-text{
+    width: 60%;
+}
+
+#radio-buttons{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.x{
+    vertical-align: middle;
+}
+
+#add-bedrooms{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.property-image{
+    margin: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#add-picture-label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#add-picture{
+    display: none;
+}
+
+.date-selection, .price-selection{
+    margin: 0px !important;
+}
+
+.date-selection{
+    font-size: 16px;
+    width: 30% !important;
+    margin-right: 5px !important;
+}
+.price-selection{
+    font-size: 16px;
+    width: 20% !important;
+}
+
+#availability-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.availability-inputs{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main > h3 {
+    padding: 0 0 20px 0px;
+}
+
+main > h4 {
+    padding-left: 0px;
+}
+
+@media only screen and (max-width: 500px){
+    .availability-inputs{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    
+    #main-div{
+        flex-direction: column;
+    }
+}

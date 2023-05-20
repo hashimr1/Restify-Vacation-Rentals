@@ -1,0 +1,9 @@
+#amenities_group div ul{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+#search-bar > svg{
+    position: absolute;
+    top: 6px;
+}

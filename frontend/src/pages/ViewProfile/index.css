@@ -1,0 +1,13 @@
+
+@media only screen and (max-width: 800px){
+    #email-h1-tag{
+        font-size:20px;
+    }
+}
+
+#email-h1-tag, #view-prof-phone, #edit-profile-name{
+    width: 100vw;
+    text-align: center;
+    font-size: 30px;
+    overflow-wrap: break-word;
+}

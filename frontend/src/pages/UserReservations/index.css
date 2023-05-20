@@ -1,0 +1,145 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tabs{
+    display: flex;
+}
+
+.tab{
+    background-color: #ddd;
+    padding:10px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-width: 0.5px 0.5px 0px 0.5px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.reservation-div{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 0px 0.5px 0.5px 0.5px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 0px 0px 20px 20px;
+    /* border-radius: 20px; */
+    padding: 20px;
+}
+
+/* By default we will display the first div which is requests */
+#requests-div, #upcoming-div, #history-div, #all-div{
+    display: flex;
+}
+
+
+#outer-reservation-div{
+    width: 90vw;
+    max-width: 1500px;
+}
+
+:checked + label {
+    background-color: white;
+}
+
+.reservation-card{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border: 0.5px solid #000000;
+    border-radius: 20px;
+}
+
+.reservation-status{
+    width: fit-content;
+    background: #E6E6E6;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.cancel-button{
+    width: 100%;
+    cursor: pointer;
+    background: #59B6BB;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.right-buttons{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.res-info{
+    margin-left: 10px;
+    hyphens: auto;
+}
+
+
+.leave-review-button{
+    width: 100%;
+    cursor: pointer;
+    background: #59B6BB;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.property-pic{
+    border-radius: 10px;
+}
+
+#load-btn{
+    color: whitesmoke;
+    width: 20vw;
+    min-width: 100px;
+    max-width: 250px;
+    cursor: pointer;
+    background: #59B6BB;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#date{
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 800px){
+    h2{
+        font-size: 16px;
+    }
+
+    .tab{
+        padding: 10px 0px;
+    }
+
+    .reservation-card{
+        flex-direction: column;
+    }
+
+    .res-info{
+        text-align: center;
+    }
+}

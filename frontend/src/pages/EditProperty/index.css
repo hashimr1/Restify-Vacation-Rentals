@@ -1,0 +1,84 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#listing{
+    width: 100vw;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#listing > label {
+    margin: 20px 0 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+#listing > h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#listing > [type="submit"]{
+    color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    min-width: 100px;
+    cursor: pointer;
+    background: #59B6BB;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 75px 0 75px 0;
+}
+
+#add-availability-link{
+    border:1px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: #59B6BB;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.update-inputs{
+    font-size: 20px;
+}
+
+#property-range-div{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.range-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border:1px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.amenities-update{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 10px;
+}
+
+.delete-range-icon{
+    cursor: pointer;
+}

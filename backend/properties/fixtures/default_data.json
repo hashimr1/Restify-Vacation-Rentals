@@ -1,0 +1,623 @@
+[
+    {
+      "model": "accounts.User",
+      "pk": 1,
+      "fields": {
+        "username" : "Joe11",
+        "first_name": "Joe",
+        "last_name": "Smith",
+        "email": "joesmith@gmail.com",
+        "password": "pbkdf2_sha256$390000$lcpGjuMYq6HgBVehzln4dw$hd+FJvcRmXoNpwKpjSLoJYdT1LO4PVM+mk2j1irg66I=",
+        "phone_number":"1233323312",
+        "photo":"trustworthy_guy.jpg",
+        "is_superuser": "True"
+      }
+    },
+
+    {
+      "model": "accounts.User",
+      "pk": 7,
+      "fields": {
+        "username" : "lee",
+        "first_name": "Zach",
+        "last_name": "Lee",
+        "email": "zachlee@hotmail.com",
+        "password": "pbkdf2_sha256$390000$lW8JDgJg9IhOmi8WnrtyPW$XIqsJ3DpCjLtl7ctjXtq7wnTALiLklIT7mRZXBEG4Qo=",
+        "phone_number":"1233323312",
+        "is_superuser": "True",
+        "photo": "no_profile_pic.png"
+      }
+    },
+    {
+      "model": "accounts.User",
+      "pk": 8,
+      "fields": {
+        "username" : "lee1",
+        "first_name": "Zach",
+        "last_name": "Lee",
+        "email": "zachlee2@hotmail.com",
+        "password": "pbkdf2_sha256$390000$lW8JDgJg9IhOmi8WnrtyPW$XIqsJ3DpCjLtl7ctjXtq7wnTALiLklIT7mRZXBEG4Qo=",
+        "phone_number":"1233323312",
+        "is_superuser": "True",
+        "photo": "no_profile_pic.png"
+      }
+    },
+    {
+      "model": "properties.Property",
+      "pk" : 2,
+      "fields": {
+        "host": 1,
+        "name": "Lake House in Burlington",
+        "address": "Burlington, Canada",
+        "property_type": "House",
+        "stay_type": "1",
+        "beds": "241",
+        "baths": "78",
+        "guests":"300",
+        "preview": "house.jpg",
+        "tv": "True",
+        "heating": "True",
+        "grill" : "True",
+        "wifi": "True",
+        "air_condition": "True",
+        "dryer": "True",
+        "washer": "True"
+      }
+    },
+
+      {
+        "model": "properties.Property",
+        "pk": 3,
+        "fields": {
+          "host" : 1,
+          "name": "Ennismore Mansion",
+          "address": "Ennismore, Canada",
+          "property_type": "House",
+          "stay_type": "1",
+          "beds": "120",
+          "baths": "230",
+          "guests": "1",
+          "preview": "lakehouse1.jpg",
+          "tv": "True",
+          "heating": "True",
+          "grill" : "True",
+          "wifi": "True",
+          "air_condition": "True",
+          "dryer": "True",
+          "washer": "True"
+        }
+      },
+
+      {
+        "model": "properties.Property",
+        "pk": 4,
+        "fields": {
+          "host" : 1,
+          "name": "House in Napanee",
+          "address": "Napanee, Canada",
+          "property_type": "House",
+          "stay_type": "2",
+          "beds": "2",
+          "baths": "3",
+          "guests": "5",
+          "preview": "mansion.jpg",
+          "dryer":"True",
+          "pool": "True",
+          "tv": "True"
+        }
+      },
+
+      {
+        "model": "properties.Property",
+        "pk": 5,
+        "fields": {
+          "host" : 1,
+          "name": "Dunville House",
+          "address": "Dunville, Canada",
+          "property_type": "House",
+          "stay_type": "2",
+          "beds": "6",
+          "baths": "200",
+          "guests": "1",
+          "preview": "mansion2.jpg",
+          "grill": "True",
+          "smoking_allowed": "True",
+          "pool":"True",
+          "tv":"True"
+        }
+      },
+
+      {
+        "model": "properties.Property",
+        "pk": 6,
+        "fields": {
+          "host" : 1,
+          "name": "Picton Hotel",
+          "address": "Picton, Canada",
+          "property_type": "Boutique hotel",
+          "stay_type": "1",
+          "beds": "2",
+          "baths": "1",
+          "guests": "2",
+          "preview": "boutique_hotel1.jpg",
+          "tv":"True"
+        }
+      },
+
+      {
+        "model": "properties.Property",
+        "pk": 10,
+        "fields": {
+          "host" : 1,
+          "name": "Condo in Downtown Toronto",
+          "address": "Toronto, Canada",
+          "property_type": "Apartment",
+          "stay_type": "1",
+          "beds": "2",
+          "baths": "1",
+          "guests": "3",
+          "preview": "apartment.jpg",
+          "tv":"True"
+        }
+      },
+
+      {
+        "model": "properties.Property",
+        "pk": 11,
+        "fields": {
+          "host" : 1,
+          "name": "Waterloo Mansion",
+          "address": "Waterloo, Canada",
+          "property_type": "House",
+          "stay_type": "1",
+          "beds": "5",
+          "baths": "4",
+          "guests": "5",
+          "preview": "waterloo_mansion.jpg",
+          "tv":"True"
+        }
+      },
+
+      {
+        "model": "properties.Property",
+        "pk": 12,
+        "fields": {
+          "host" : 1,
+          "name": "Luxury Treehouse",
+          "address": "Lincoln, Canada",
+          "property_type": "Unique space",
+          "stay_type": "1",
+          "beds": "2",
+          "baths": "1",
+          "guests": "2",
+          "preview": "unique_space.webp"
+        }
+      },
+
+      {
+        "model": "properties.Property",
+        "pk": 13,
+        "fields": {
+          "host" : 1,
+          "name": "Ottawa Apartment",
+          "address": "Ottawa, Canada",
+          "property_type": "Apartment",
+          "stay_type": "1",
+          "beds": "3",
+          "baths": "2",
+          "guests": "3",
+          "preview": "apartment2.jpg",
+          "tv":"True"
+        }
+      },
+
+      {
+        "model": "properties.Property",
+        "pk": 14,
+        "fields": {
+          "host" : 1,
+          "name": "Mississauga Secondary Unit",
+          "address": "Mississauga, Canada",
+          "property_type": "Secondary unit",
+          "stay_type": "1",
+          "beds": "1",
+          "baths": "1",
+          "guests": "1",
+          "preview": "secondary_unit.webp"
+        }
+      },
+
+      {
+        "model": "properties.Property",
+        "pk": 15,
+        "fields": {
+          "host" : 1,
+          "name": "London Unique Home",
+          "address": "London, Canada",
+          "property_type": "Unique space",
+          "stay_type": "1",
+          "beds": "2",
+          "baths": "1",
+          "guests": "2",
+          "preview": "unique_home1.webp"
+        }
+      },
+
+      {
+        "model": "properties.Property",
+        "pk": 16,
+        "fields": {
+          "host" : 1,
+          "name": "Lac-Beauport Unique Home",
+          "address": "Lac-Beauport, Canada",
+          "property_type": "Unique space",
+          "stay_type": "1",
+          "beds": "2",
+          "baths": "1",
+          "guests": "2",
+          "preview": "unique_home2.webp"
+        }
+      },
+
+      {
+        "model": "properties.Property",
+        "pk": 17,
+        "fields": {
+          "host" : 1,
+          "name": "Bed and Breakfast in Almonte",
+          "address": "Almonte, Canada",
+          "property_type": "Bed and breakfast",
+          "stay_type": "1",
+          "beds": "5",
+          "baths": "5",
+          "guests": "5",
+          "preview": "bed_and_breakfast.jpg"
+        }
+      },
+
+      {
+        "model": "properties.Property",
+        "pk": 18,
+        "fields": {
+          "host" : 1,
+          "name": "Elora Bed and Breakfast",
+          "address": "Elora, Canada",
+          "property_type": "Bed and breakfast",
+          "stay_type": "1",
+          "beds": "3",
+          "baths": "3",
+          "guests": "3",
+          "preview": "bed_and_breakfast2.jpg"
+        }
+      },
+
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 7,
+        "fields": {
+          "property": 2,
+          "price": "400",
+          "start_date": "2023-03-11",
+          "end_date": "2023-03-15"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 8,
+        "fields": {
+          "property": 3,
+          "price": "420",
+          "start_date": "2023-03-12",
+          "end_date": "2023-03-15"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 9,
+        "fields": {
+          "property": 4,
+          "price": "570",
+          "start_date": "2023-04-28",
+          "end_date": "2023-04-30"
+        }
+      },
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 19,
+        "fields": {
+          "property": 5,
+          "price": "540",
+          "start_date": "2023-04-28",
+          "end_date": "2023-04-30"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 21,
+        "fields": {
+          "property": 13,
+          "price": "115",
+          "start_date": "2023-05-05",
+          "end_date": "2023-05-09"
+        }
+      },
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 22,
+        "fields": {
+          "property": 10,
+          "price": "175",
+          "start_date": "2023-05-01",
+          "end_date": "2023-05-04"
+        }
+      },
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 23,
+        "fields": {
+          "property": 14,
+          "price": "100",
+          "start_date": "2023-05-02",
+          "end_date": "2023-05-07"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 24,
+        "fields": {
+          "property": 16,
+          "price": "205",
+          "start_date": "2023-04-30",
+          "end_date": "2023-05-07"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 25,
+        "fields": {
+          "property": 15,
+          "price": "275",
+          "start_date": "2023-05-02",
+          "end_date": "2023-05-15"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 26,
+        "fields": {
+          "property": 18,
+          "price": "180",
+          "start_date": "2023-05-05",
+          "end_date": "2023-05-15"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 27,
+        "fields": {
+          "property": 17,
+          "price": "170",
+          "start_date": "2023-05-09",
+          "end_date": "2023-05-13"
+        }
+      }, 
+
+      {
+        "model": "properties.Property",
+        "pk": 28,
+        "fields": {
+          "host" : 1,
+          "name": "Picton Boutique Hotel",
+          "address": "Picton, Canada",
+          "property_type": "Boutique hotel",
+          "stay_type": "1",
+          "beds": "2",
+          "baths": "1",
+          "guests": "4",
+          "preview": "boutique_hotel2.jpg"
+        }
+      },
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 29,
+        "fields": {
+          "property": 28,
+          "price": "310",
+          "start_date": "2023-05-10",
+          "end_date": "2023-05-17"
+        }
+      },
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 30,
+        "fields": {
+          "property": 6,
+          "price": "320",
+          "start_date": "2023-05-13",
+          "end_date": "2023-05-15"
+        }
+      }, 
+
+      {
+        "model": "properties.Property",
+        "pk": 31,
+        "fields": {
+          "host" : 1,
+          "name": "Toronto High Rise",
+          "address": "Toronto, Canada",
+          "property_type": "Apartment",
+          "stay_type": "1",
+          "beds": "4",
+          "baths": "2",
+          "guests": "4",
+          "preview": "apartment4.png"
+        }
+      }, 
+
+      {
+        "model": "properties.Property",
+        "pk": 34,
+        "fields": {
+          "host" : 1,
+          "name": "Elora Secondary Unit",
+          "address": "Elora, Canada",
+          "property_type": "Secondary unit",
+          "stay_type": "1",
+          "beds": "1",
+          "baths": "1",
+          "guests": "1",
+          "preview": "secondary_unit2.webp"
+        }
+      }, 
+
+      {
+        "model": "properties.Property",
+        "pk": 35,
+        "fields": {
+          "host" : 1,
+          "name": "London Hotel",
+          "address": "London, Canada",
+          "property_type": "Boutique hotel",
+          "stay_type": "1",
+          "beds": "3",
+          "baths": "2",
+          "guests": "3",
+          "preview": "boutique_hotel3.jpeg"
+        }
+      }, 
+
+      {
+        "model": "properties.Property",
+        "pk": 36,
+        "fields": {
+          "host" : 1,
+          "name": "Victoria Bed and Breakfast",
+          "address": "Victoria, Canada",
+          "property_type": "Bed and breakfast",
+          "stay_type": "1",
+          "beds": "2",
+          "baths": "1",
+          "guests": "2",
+          "preview": "bed_and_breakfast3.jpg"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 37,
+        "fields": {
+          "property": 11,
+          "price": "560",
+          "start_date": "2023-05-20",
+          "end_date": "2023-05-22"
+        }
+      }, 
+
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 38,
+        "fields": {
+          "property": 31,
+          "price": "315",
+          "start_date": "2023-05-06",
+          "end_date": "2023-05-09"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 39,
+        "fields": {
+          "property": 34,
+          "price": "190",
+          "start_date": "2023-05-11",
+          "end_date": "2023-05-20"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 40,
+        "fields": {
+          "property": 35,
+          "price": "290",
+          "start_date": "2023-05-22",
+          "end_date": "2023-05-24"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 41,
+        "fields": {
+          "property": 36,
+          "price": "170",
+          "start_date": "2023-05-19",
+          "end_date": "2023-05-24"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 42,
+        "fields": {
+          "property": 12,
+          "price": "230",
+          "start_date": "2023-05-14",
+          "end_date": "2023-05-24"
+        }
+      }, 
+
+      {
+        "model": "properties.Property",
+        "pk": 43,
+        "fields": {
+          "host" : 1,
+          "name": "Milton Secondary Unit",
+          "address": "Milton, Canada",
+          "property_type": "Secondary unit",
+          "stay_type": "1",
+          "beds": "2",
+          "baths": "1",
+          "guests": "2",
+          "preview": "secondary_unit3.avif"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 44,
+        "fields": {
+          "property": 43,
+          "price": "200",
+          "start_date": "2023-05-16",
+          "end_date": "2023-05-24"
+        }
+      }, 
+
+      {
+        "model": "properties.PropertyRanges",
+        "pk": 45,
+        "fields": {
+          "property": 2,
+          "price": "200",
+          "start_date": "2024-05-16",
+          "end_date": "2024-05-24"
+        }
+      }
+
+    
+  ]

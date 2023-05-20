@@ -1,0 +1,37 @@
+#error-field{
+    margin-top: 20px;
+    white-space: pre-line;
+}
+
+#availability{
+    width: 100vw;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#availability > label {
+    margin: 20px 0 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.availability-inputs{
+    font-size: 20px;
+}
+
+#availability > [type="submit"] {
+    color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    min-width: 100px;
+    cursor: pointer;
+    background: #59B6BB;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 75px 0 75px 0;
+}

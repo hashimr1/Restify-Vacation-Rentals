@@ -1,0 +1,51 @@
+.home-page-location{
+    display:flex;
+    flex-direction:row;
+    font-size:20px;
+    justify-content:space-between;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.home-page-price{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.home-page-date{
+    margin-top:1px;
+}
+.home-page-description{
+    height:100%;
+}
+
+.home-page-image{
+    height: 100%;
+    width: 100%;
+}
+
+.home-page-description img{
+    object-fit:cover;
+    height:90%;
+    width:100%;
+}
+
+
+.home-page-rating svg{
+    fill: black;
+    stroke-linejoin: miter;
+    stroke-linecap: square;
+}
+
+
+@media screen and (max-width: 728px) {
+    .home-page-date{
+        margin-top:2px;
+        margin-bottom:4px;
+        font-size:12px;
+    }
+
+}

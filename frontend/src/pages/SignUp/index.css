@@ -1,0 +1,199 @@
+.floating-label-search-bar p{
+    color:red;
+}
+
+.signup-logo{
+    width:400px;
+}
+
+.signup-page-content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.signup-info{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:570px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    row-gap:19px;
+    padding: 20px;
+}
+
+.first-last-names{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    column-gap:10px;
+    width:100%;
+}
+
+.signup-button{
+    background: #59B6BB;
+    border-radius: 50px;
+    border:2px solid #59B6BB;
+    color:white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration:none;
+    max-width:340px;
+    width:300px;
+    margin-top:15px;
+}
+
+.first-name, .last-name{
+    width:200px !important;
+}
+
+.signup-button:hover{
+    background-color:white;
+    color: #59B6BB;
+    border:2px solid #59B6BB;
+    cursor:pointer;
+}
+
+#sign-up-email, #sign-up-phone, #sign-up-password{
+    width:100%;
+}
+
+.account-exists-text{
+    margin-top:16px;
+}
+
+.login-profile-button{
+    width:420px;
+}
+
+.signup-page-field {
+    width:420px;
+}
+
+.login-welcome-back{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+
+    color: #000000;
+}
+
+.login-center-buttons{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    row-gap:10px;
+    margin-top:5vh;
+    align-items:center;
+}
+
+
+@media screen and (max-width: 728px) {
+    .signup-info {
+      width:80vw;
+      padding: 20px;
+    }
+
+    .signup-logo{
+        width:300px;
+    }
+
+    
+
+  }
+
+
+  @media screen and (max-width: 600px){
+
+    .first-last-names{
+        flex-direction:column;
+        row-gap:20px;
+        width:auto;
+    }
+
+    .first-name, .last-name{
+        width:300px !important;
+    }
+
+    .signup-page-field {
+        width:300px ;
+    }
+
+    .account-exists-text{
+        margin-top:0px;
+    }
+
+    .signup-button{
+        margin-top:0px;
+    }
+
+    .login-profile-button{
+        width:300px;
+    }
+
+    .signup-button{
+        width:300px;
+        font-size: 16px;
+    }
+
+    .login-welcome-back{
+        font-size:30px;
+    }
+
+
+  }
+
+  @media screen and (max-width:420px){
+    .first-name, .last-name{
+        width:200px !important;
+    }
+
+    .signup-page-field {
+        width:200px ;
+    }
+
+    .login-profile-button{
+        width:200px;
+    }
+
+    .signup-button{
+        width:200px;
+        
+    }
+
+    .signup-logo{
+        width:150px;
+    }
+
+    body{
+        padding-top: 50px;
+    }
+
+  }
+
+  @media screen and (max-width:230px){
+    .first-name, .last-name{
+        width:100px !important;
+    }
+
+    .signup-page-field {
+        width:100px ;
+    }
+
+    .login-profile-button{
+        width:100%;
+    }
+
+ 
+  }

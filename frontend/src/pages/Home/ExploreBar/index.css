@@ -1,0 +1,41 @@
+#homes-types{
+    width:100%;
+}
+
+#homes-types ul{
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:flex-end;
+    flex-wrap:wrap;
+    margin-bottom:3vh;
+}
+
+#homes-types ul li button{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    cursor:pointer;
+    text-decoration:none;
+    color:black;
+    padding: 12px;
+    border: none;
+    background: none;
+}
+
+.current-category-home{
+    border-bottom:1px solid black;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    cursor:pointer;
+    text-decoration:none;
+    color:black;
+}

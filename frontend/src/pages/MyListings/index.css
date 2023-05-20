@@ -1,0 +1,178 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listings-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 0.5px 0.5px 0.5px 0.5px;
+    padding: 20px;
+}
+
+#outer-listings-div{
+    width: 90vw;
+    max-width: 1000px;
+}
+
+:checked + label {
+    background-color: white;
+}
+
+.listing-card{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border: 0.5px solid #000000;
+    border-radius: 20px;
+}
+
+.add-listing-div{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px 0px 20px 20px;
+    margin: 20px;
+}
+
+.add-listing-div a{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.add-listing-div h3{
+    padding: 0px;
+    margin-left: 5px;
+}
+
+
+.side-button{
+    width: 10rem;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 0 5px;
+    align-self: flex-end;
+}
+
+.req-info{
+    flex-grow: 2;
+}
+
+.delete-buttton{
+    background: #ddd;
+    text-align: center;
+    align-self: center;
+}
+
+.edit-button{
+    background: #59B6BB;
+    text-align: center;
+    align-self: center;
+}
+
+.l-buttons{
+    /* position: absolute;
+    right: 20px;
+    bottom: 0; */
+    height: 90px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#name{
+    padding: 0 0 20px 20px;
+}
+
+h4{
+    padding-left: 8px;
+}
+
+#description{
+    padding: 0 0 20px 20px;
+}
+
+.property-pic{
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 560px){
+    h2{
+        font-size: 16px;
+    }
+
+    .listings-div{
+        row-gap: 50px;
+    }
+
+    .tab{
+        padding: 10px 0px;
+    }
+
+    .listing-card{
+        flex-direction: column;
+    }
+
+    .req-info{
+        text-align: center;
+        height: 2rem;
+    }
+
+    .property-pic{
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+    }
+
+    button{
+        font-size: 1em;
+    }
+
+    .l-buttons{
+        display: flex;
+        height:unset;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }   
+}
+
+.delete-noti-btn{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+@media only screen and (max-width: 300px){
+    button{
+        font-size: 0.8em;
+    }
+}

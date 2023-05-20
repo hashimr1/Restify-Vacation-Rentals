@@ -1,0 +1,37 @@
+#submit-comment{
+    color: whitesmoke;
+    height: 50px;
+    width: 50vw;
+    min-width: 150px;
+    max-width: 1000px;
+    cursor: pointer;
+    background: #59B6BB;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+#comment-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px
+}
+
+#comment-form > textarea{
+    font-size: 20px;
+    max-width: 1500px;
+    width: 90vw;
+    height: 200px;
+    min-width: 200px;
+}
+
+main #error{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+}

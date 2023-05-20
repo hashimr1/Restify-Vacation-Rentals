@@ -1,0 +1,1 @@
+To run the app, please first use source startup.sh. Then source run.sh to run it, and source stop.sh to stop it.
