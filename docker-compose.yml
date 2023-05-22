@@ -1,0 +1,33 @@
+services:
+  backend:
+    restart: always
+    platform: linux/amd64
+    container_name: backend
+    command : bash -c "python3 manage.py migrate &&
+                      python3 manage.py runserver 0.0.0.0:8000"
+    build:
+      context: ./backend/
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    networks:
+      - restify-net
+
+  frontend:
+    restart: always
+    platform: linux/amd64
+    command : npm start
+    container_name: front
+    build:
+      context: ./frontend/
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    depends_on:
+      - backend
+    networks:
+      - restify-net
+
+networks:
+  restify-net:
