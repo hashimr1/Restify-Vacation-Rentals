@@ -27,8 +27,9 @@ A web application for booking and hosting short term rental properties. The appl
  
 To run the app, run `source startup.sh`, `source run.sh` and `source stop.sh`. Alternatively, run the application in Docker using `docker compose up -d` and `docker compose down`. Access the frontend development server [here](http://localhost:3000/) and the backend [here](http://localhost:8000/).  
 
-![screenshot](Images/mainpage.PNG)
-![screenshot](Images/animepage.PNG)
+![screenshot](Images/search.png)
+![screenshot](Images/create_property.png)
+![screenshot](Images/login.png)
 
 ### Built With
 
