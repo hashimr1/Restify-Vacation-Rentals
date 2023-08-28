@@ -4,6 +4,7 @@ services:
     platform: linux/amd64
     container_name: backend
     command : bash -c "python3 manage.py migrate &&
+                      python3 manage.py loaddata properties/fixtures/default_data.json &&
                       python3 manage.py runserver 0.0.0.0:8000"
     build:
       context: ./backend/
